@@ -12,7 +12,12 @@ class VerifyCsrfToken extends Middleware
      * @var array<int, string>
      */
     protected $except = [
+        'http://codegroup-54552efc0bf4.herokuapp.com/players/create',
+        'http://codegroup-54552efc0bf4.herokuapp.com/players/edit/*',
+        'http://codegroup-54552efc0bf4.herokuapp.com/players/delete/*',
+        'http://codegroup-54552efc0bf4.herokuapp.com/players/store',
+        'http://codegroup-54552efc0bf4.herokuapp.com/players/update/*',
         'http://codegroup-54552efc0bf4.herokuapp.com/players',
-        'sort-teams'
+        'http://codegroup-54552efc0bf4.herokuapp.com/sort-teams'
     ];
 }
