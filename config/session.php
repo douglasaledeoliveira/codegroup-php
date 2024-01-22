@@ -155,7 +155,7 @@ return [
     |
     */
 
-    'domain' => 'https://codegroup-54552efc0bf4.herokuapp.com',
+    'domain' => '//codegroup-54552efc0bf4.herokuapp.com',
 
     /*
     |--------------------------------------------------------------------------
@@ -168,7 +168,7 @@ return [
     |
     */
 
-    'secure' => env('SESSION_SECURE_COOKIE'),
+    'secure' => env('SESSION_SECURE_COOKIE', false),
 
     /*
     |--------------------------------------------------------------------------
