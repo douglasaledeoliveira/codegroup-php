@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sorteador de Times de Futebol</title>
-    <link rel="shortcut icon" href="img/favicon.png" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://codegroup-54552efc0bf4.herokuapp.com/img/favicon.png" />
+    <link rel="stylesheet" href="https://codegroup-54552efc0bf4.herokuapp.com/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
 
     <aside class="sidebar">
         <div class="logo">
-            <img src="img/codegroup.png" alt="{{ config('app.name') }} logo" title="{{ config('app.name') }}">
+            <img src="https://codegroup-54552efc0bf4.herokuapp.com/img/codegroup.png" alt="{{ config('app.name') }} logo" title="{{ config('app.name') }}">
         </div>
 
         <hr class="spacer" />
@@ -51,14 +51,6 @@
                 <p>&copy; {{ date('Y') }} {{ config('app.name') }} - Todos os direitos reservados.</p>
             </div>
         </footer>
-    </main> 
-
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script>
-        document.querySelector('.hamburger-menu').addEventListener('click', function() {
-            document.querySelector('.sidebar').classList.toggle('active');
-            document.querySelector('.main-content').classList.toggle('active');
-        });
-    </script>
+    </main>
 </body>
 </html>
