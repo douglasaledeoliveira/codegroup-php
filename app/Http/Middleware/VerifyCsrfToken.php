@@ -18,6 +18,7 @@ class VerifyCsrfToken extends Middleware
         'http://codegroup-54552efc0bf4.herokuapp.com/players/store',
         'http://codegroup-54552efc0bf4.herokuapp.com/players/update/*',
         'http://codegroup-54552efc0bf4.herokuapp.com/players',
-        'http://codegroup-54552efc0bf4.herokuapp.com/sort-teams'
+        'http://codegroup-54552efc0bf4.herokuapp.com/sort-teams',
+        'http://codegroup-54552efc0bf4.herokuapp.com'
     ];
 }
