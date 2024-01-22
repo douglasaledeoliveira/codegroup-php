@@ -14,5 +14,6 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         'https://codegroup-54552efc0bf4.herokuapp.com/players',
         'https://codegroup-54552efc0bf4.herokuapp.com/players/*',
+        'https://codegroup-54552efc0bf4.herokuapp.com/players/sort-teams'
     ];
 }
