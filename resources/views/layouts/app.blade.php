@@ -21,7 +21,7 @@
 
     <aside class="sidebar">
         <div class="logo">
-            <img src="{{ asset('img/codegroup.png') }}" alt="{{ config('app.name') }} logo" title="{{ config('app.name') }}">
+            <img src="img/codegroup.png" alt="{{ config('app.name') }} logo" title="{{ config('app.name') }}">
         </div>
 
         <hr class="spacer" />
